@@ -1,0 +1,24 @@
+---
+title: "practice_stats"
+author: "Alex Filazzola"
+date: "June 8, 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Practicing statistics with Tom and making it into a webpage
+![](./pic1.JPG)
+
+``` {r}
+## load the cars dataset
+data <- cars
+str(cars)
+
+cor(cars$speed,cars$dist)
+
+
+
+```
